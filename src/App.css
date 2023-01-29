@@ -6,7 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.flex {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.flex button {
+  width: 30%;
+  height: 3rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
